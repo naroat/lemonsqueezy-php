@@ -1,8 +1,8 @@
 # Lemon Squeezy API client for PHP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/seisigmasrl/lemonsqueezy-php.svg?style=flat-square)](https://packagist.org/packages/seisigmasrl/lemonsqueezy-php)
-[![Tests](https://img.shields.io/github/actions/workflow/status/seisigmasrl/lemonsqueezy.php/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/seisigmasrl/lemonsqueezy.php/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/seisigmasrl/lemonsqueezy-php.svg?style=flat-square)](https://packagist.org/packages/ricardov03/lemonsqueezy-php)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/naroat/lemonsqueezy-php.svg?style=flat-square)](https://packagist.org/packages/naroat/lemonsqueezy-php)
+[![Tests](https://img.shields.io/github/actions/workflow/status/naroat/lemonsqueezy.php/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/naroat/lemonsqueezy.php/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/naroat/lemonsqueezy-php.svg?style=flat-square)](https://packagist.org/packages/ricardov03/lemonsqueezy-php)
 
 > Original: https://github.com/seisigmasrl/lemonsqueezy.php
 
@@ -16,7 +16,7 @@ This SDK wraps the Lemon Squeeze API to simplify the service integration with th
 This package requires PHP 8.2. To get started, install it using [Composer](https://getcomposer.org/) like this:
 
 ```bash
-composer require seisigmasrl/lemonsqueezy-php
+composer require naroat/lemonsqueezy-php
 ```
 This SDK architecture is highly inspired by the [DigitalOcean Client](https://github.com/DigitalOceanPHP/Client) package by decoupling from any HTTP messaging client by using [PSR-7](https://www.php-fig.org/psr/psr-7/), [PSR-17](https://www.php-fig.org/psr/psr-17/), [PSR-18](https://www.php-fig.org/psr/psr-18/), and [HTTPlug](https://httplug.io/).
 You can visit [HTTPlug for library users](https://docs.php-http.org/en/latest/httplug/users.html) to get more information about installing HTTPlug related packages. This package
