@@ -1,17 +1,17 @@
 {
-    "name": "seisigmasrl/lemonsqueezy-php",
+    "name": "naroat/lemonsqueezy-php",
     "description": "Lemon Squeezy API client for PHP",
     "keywords": [
-        "seisigmasrl",
-        "ricardov03",
+        "naroat",
+        "lemonsqueezy",
         "lemonsqueezy-php"
     ],
-    "homepage": "https://github.com/seisigmasrl/lemonsqueezy.php",
+    "homepage": "https://github.com/naroat/lemonsqueezy.php",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ricardo Vargas",
-            "email": "im@ricardovargas.me",
+            "name": "Naroat",
+            "email": "taoran1401@gmail.com",
             "role": "Developer"
         }
     ],
@@ -24,7 +24,7 @@
         "php-http/httplug": "^2.3",
         "psr/http-client-implementation": "*",
         "psr/http-factory-implementation": "*",
-        "psr/http-message": "^1.0",
+        "psr/http-message": "^2.0",
         "symfony/http-client": "^6.2",
         "symfony/polyfill-php82": "^1.27"
     },
